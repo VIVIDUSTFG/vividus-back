@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+pydantic-settings = "*"
+bcrypt = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+pydantic = {extras = ["email"], version = "*"}
+pytz = "*"
+alembic = "*"
+sqlmodel = "*"
+asyncpg = "*"
+python-multipart = "*"
+kubernetes = "*"
+argo-workflows = "*"
+gitpython = "*"
+numpy = "*"
+scikit-learn = "*"
+rq = "*"
+redis = "*"
+pytest-asyncio = "*"
+
+[dev-packages]
+pylint = "*"
+pylint-pydantic = "*"
+pytest-dependency = "*"
+pytest = "*"
+pytest-asyncio = "*"
+coverage = "*"
+
+[requires]
+python_version = "3.11"
